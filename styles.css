@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADD8E6; /* Light yellowish background */
+    margin: 0;
+    padding: 0;
+    color: #7j3e4e; /* Dark gray text for readability */
+}
+
+header {
+    background-color: #00008B; /* Warm brown color for header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #4e8c2f; /* Earthy green on hover */
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    max-width: 900px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6c4f3d; /* Warm brown color for headings */
+}
+
+section p, section ul {
+    line-height: 1.8;
+}
+
+section img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #00008B; /* Matching footer color */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Colorful Hover Effects for Sections */
+section:hover {
+    background-color: #f0f0f0; /* Slight gray background change */
+    transform: scale(1.02); /* Slight zoom-in effect */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
